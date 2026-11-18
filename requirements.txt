@@ -1,0 +1,8 @@
+# GPU 없이 테스트·분석 스크립트를 돌리는 데 필요한 라이브러리
+# (torch·transformers·vllm·peft 등 GPU 라이브러리는 각 노트북의 설치 셀이 관리합니다)
+numpy
+pandas
+pillow
+matplotlib
+scikit-learn
+nbformat

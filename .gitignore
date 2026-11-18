@@ -1,0 +1,45 @@
+# Local Python environments and caches
+/baseline/
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Datasets, downloaded dependencies/models, and experiment artifacts
+/data/
+/downloads/
+/output/  # 대회 데이터 문항·예측 포함 — 공개본 제외
+*.zip
+!/docs/*.zip
+*.tar
+*.tar.gz
+*.7z
+# *.log  (실험 로그도 올림)
+
+# Model weights and checkpoints (output/ 안에 있어도 제외)
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.gguf
+/output/_legacy/qwen2_5_vl_3b_lora/
+
+# Crash-recovery leftovers
+*.tmp
+*.bak
+
+# Local credentials and editor settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/.vscode/
+/.idea/
+.DS_Store
+Thumbs.db

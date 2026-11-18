@@ -1,0 +1,14 @@
+id,reason
+train_6545.jpg,premise_false
+train_0639.jpg,answer_absent
+train_3307.jpg,contradicts_text
+train_0175.jpg,contradicts_text
+train_6474.jpg,contradicts_text
+train_3434.jpg,contradicts_text
+train_0981.jpg,contradicts_text
+train_4012.jpg,contradicts_text
+train_5700.jpg,contradicts_text
+train_1310.jpg,contradicts_text
+train_5903.jpg,contradicts_text
+train_3722.jpg,contradicts_text
+train_1808.jpg,contradicts_text
